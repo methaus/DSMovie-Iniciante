@@ -56,7 +56,7 @@ html, body {
 	text-align: center;
 	height: 349px;
 	width: 260px;
-	margin-bottom: 40px;
+	margin-top: 40px;
 	border-radius: 8px 8px 8px 8px;
 }
 
@@ -72,9 +72,10 @@ html, body {
 	font: normal 700 14px/19px "Open Sans", sans-serif;
 	color: var(--card-titles);
 	padding: 9.66px 17px 0 15px;
+	margin-bottom: 23px;
 }
 
-.main .movie-card a, main .movie-card a:hover {
+.main .movie-card a, .main .movie-card a:hover {
 	background-color: var(--primary-color);
 	font: normal 700 14px/19px "Open Sans", sans-serif;
 	color: var(--white);
@@ -86,4 +87,47 @@ html, body {
 	padding-bottom: 1px;
 	border-radius: 4px 4px 4px 4px;
 	text-decoration: none;
+}
+
+.main-form .form-card {
+	background-color: var(--white);
+	position: relative;
+	text-align: center;
+	height: 620px;
+	width: 480px;
+	margin-top: 10px;
+	border-radius: 8px 8px 8px 8px;
+}
+
+.main-form .form-card img {
+	width: 100%;
+	border-radius: 8px 8px 0 0;
+}
+
+.main-form .form-card h2 {
+	font: normal 700 13px/17.7px "Open Sans", sans-serif;
+	color: var(--card-titles);
+	padding: 20.83px 20px 0 19px;
+	margin-bottom: 22px;
+}
+
+.main-form .form-card .form-btn, .main-form .form-card .form-btn:hover {
+	background-color: var(--primary-color);
+	font: normal 700 14px/19px "Open Sans", sans-serif;
+	color: var(--white);
+	position: absolute;
+	left: 50%; transform: translate(-50%, 0);
+	height: 40px;
+	width: 180px;
+	padding-bottom: 1px;
+	border-radius: 4px 4px 4px 4px;
+	text-decoration: none;
+}
+
+.main-form .form-card button.form-btn {
+	bottom: 88px;
+}
+
+.main-form .form-card a.form-btn {
+	bottom: 28px;
 }
