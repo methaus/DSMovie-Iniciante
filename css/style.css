@@ -1,0 +1,40 @@
+
+:root {
+	--bg-color: #E8E8E8;
+	--primary-color: #4D41C0;
+	--white: #FFF;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+html, body {
+	background-color: var(--bg-color);
+}
+
+.topbarr {
+	background-color: var(--primary-color);
+	height: 60px;
+	width: 100%;
+}
+
+.topbarr h1 {
+	font: normal 700 24px/33px "Opens Sans", sans-serif;
+	color: var(--white);
+	margin: 14px auto 13px 33px;
+}
+
+.topbarr a, .topbarr a:hover {
+	color: var(--white);
+	text-decoration: none;
+}
+
+.topbarr #authorlink {
+	font: normal 400 12px/16px "Opens Sans", sans-serif;
+	color: var(--white);
+	margin-right: 69px;
+}
