@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
 	--bg-color: #E8E8E8;
@@ -23,18 +24,22 @@ html, body {
 }
 
 .topbarr h1 {
-	font: normal 700 24px/33px "Opens Sans", sans-serif;
+	font: normal 700 24px/33px "Open Sans", sans-serif;
 	color: var(--white);
 	margin: 14px auto 13px 33px;
 }
 
 .topbarr a, .topbarr a:hover {
-	color: var(--white);
+	color: unset;
 	text-decoration: none;
 }
 
+.topbarr #githublogo {
+	margin-right: 10px;
+}
+
 .topbarr #authorlink {
-	font: normal 400 12px/16px "Opens Sans", sans-serif;
+	font: normal 400 12px/16px "Open Sans", sans-serif;
 	color: var(--white);
 	margin-right: 69px;
 }
