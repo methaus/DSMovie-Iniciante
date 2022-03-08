@@ -46,31 +46,35 @@ html, body {
 	margin-right: 69px;
 }
 
-main .movie-card {
+.main {
+	padding: 0 69px 0 33px;
+}
+
+.main .movie-card {
 	background-color: var(--white);
 	position: relative;
 	text-align: center;
 	height: 349px;
 	width: 260px;
-	margin-top: 40px;
+	margin-bottom: 40px;
 	border-radius: 8px 8px 8px 8px;
 }
 
-main .movie-card img {
+.main .movie-card img {
 	width: 100%;
 	border-radius: 8px 8px 0 0;
 }
 
-main .movie-card #rating {
+.main .movie-card #rating {
 }
 
-main .movie-card h2 {
+.main .movie-card h2 {
 	font: normal 700 14px/19px "Open Sans", sans-serif;
 	color: var(--card-titles);
 	padding: 9.66px 17px 0 15px;
 }
 
-main .movie-card a, main .movie-card a:hover {
+.main .movie-card a, main .movie-card a:hover {
 	background-color: var(--primary-color);
 	font: normal 700 14px/19px "Open Sans", sans-serif;
 	color: var(--white);
