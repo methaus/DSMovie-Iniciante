@@ -3,6 +3,7 @@
 :root {
 	--bg-color: #E8E8E8;
 	--primary-color: #4D41C0;
+	--card-titles: #4A4A4A;
 	--white: #FFF;
 }
 
@@ -21,6 +22,7 @@ html, body {
 	background-color: var(--primary-color);
 	height: 60px;
 	width: 100%;
+	margin-bottom: 30px;
 }
 
 .topbarr h1 {
@@ -42,4 +44,42 @@ html, body {
 	font: normal 400 12px/16px "Open Sans", sans-serif;
 	color: var(--white);
 	margin-right: 69px;
+}
+
+main .movie-card {
+	background-color: var(--white);
+	position: relative;
+	text-align: center;
+	height: 349px;
+	width: 260px;
+	margin-top: 40px;
+	border-radius: 8px 8px 8px 8px;
+}
+
+main .movie-card img {
+	width: 100%;
+	border-radius: 8px 8px 0 0;
+}
+
+main .movie-card #rating {
+}
+
+main .movie-card h2 {
+	font: normal 700 14px/19px "Open Sans", sans-serif;
+	color: var(--card-titles);
+	padding: 9.66px 17px 0 15px;
+}
+
+main .movie-card a, main .movie-card a:hover {
+	background-color: var(--primary-color);
+	font: normal 700 14px/19px "Open Sans", sans-serif;
+	color: var(--white);
+	position: absolute;
+	left: 50%; transform: translate(-50%, 0);
+	bottom: 20px;
+	height: 40px;
+	width: 180px;
+	padding-bottom: 1px;
+	border-radius: 4px 4px 4px 4px;
+	text-decoration: none;
 }
