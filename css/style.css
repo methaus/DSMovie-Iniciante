@@ -4,6 +4,8 @@
 	--bg-color: #E8E8E8;
 	--primary-color: #4D41C0;
 	--card-titles: #4A4A4A;
+	--form-labels: #AAAAAA;
+	--input-borders: #9E9E9E;
 	--white: #FFF;
 }
 
@@ -111,6 +113,30 @@ html, body {
 	margin-bottom: 22px;
 }
 
+.main-form .form-card form {
+	font: normal 400 12px/16.34px "Open Sans", sans-serif;
+	text-align: left;
+	color: var(--form-labels);
+	padding: 0 20px 0 19px;
+}
+
+.main-form .form-card form .form-input {
+	height: 41px;
+	width: 100%;
+	border: 1px solid var(--input-borders);
+	border-radius: 4px;
+}
+
+.main-form .form-card form input.form-input {
+	padding: 12px;
+	margin-bottom: 13px;
+}
+
+.main-form .form-card form select.form-input {
+	padding: 6px;
+	margin-bottom: 28px;
+}
+
 .main-form .form-card .form-btn, .main-form .form-card .form-btn:hover {
 	background-color: var(--primary-color);
 	font: normal 700 14px/19px "Open Sans", sans-serif;
@@ -120,6 +146,7 @@ html, body {
 	height: 40px;
 	width: 180px;
 	padding-bottom: 1px;
+	margin-left: 4px;
 	border-radius: 4px 4px 4px 4px;
 	text-decoration: none;
 }
