@@ -49,6 +49,46 @@ html, body {
 	margin-right: 43px;
 }
 
+.topbarr #pages_nav {
+	display: flex;
+	height: 70px;
+	padding: 0 69px 0 33px;
+	justify-content: center;
+	align-items: center;
+}
+
+.topbarr #pages_nav button {
+	background-color: var(--white);
+	display: flex;
+	height: 40px;
+	width: 40px;
+	border-radius: 4px;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+}
+
+.topbarr #pages_nav button:hover {
+	box-shadow: 0px 0px 3px var(--primary-color);
+	transition: box-shadow 0.5s;
+}
+
+.topbarr #pages_nav button.on {
+	border: 1px solid var(--primary-color);
+}
+
+.topbarr #pages_nav button.off {
+	border: 1px solid var(--input-borders);
+}
+
+.topbarr #pages_nav span {
+	font: normal 400 12px/16px "Open Sans", sans-serif;
+	text-align: center;
+	color: var(--primary-color);
+	width: 77px;
+	margin: 0 15px 0 8px;
+}
+
 @media (min-width: 576px) {
 	.topbarr #authorlink {
 		margin-right: 69px;
