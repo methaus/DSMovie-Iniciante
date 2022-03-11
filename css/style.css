@@ -73,12 +73,26 @@ html, body {
 	transition: box-shadow 0.5s;
 }
 
-.topbarr #pages_nav button.on {
+.topbarr #pages_nav button {
 	border: 1px solid var(--primary-color);
 }
 
-.topbarr #pages_nav button.off {
-	border: 1px solid var(--input-borders);
+.topbarr #pages_nav button:hover {
+	box-shadow: 0px 0px 5px var(--primary-color);
+	transition: 0.5s;
+}
+
+.topbarr #pages_nav button:disabled {
+    border: 1px solid var(--input-borders);
+    box-shadow: unset;
+}
+
+.topbarr #pages_nav button img {
+	filter: brightness(0) contrast(100%) invert(26%) sepia(21%) saturate(7203%) hue-rotate(235deg) brightness(86%) contrast(92%);
+}
+
+.topbarr #pages_nav button:disabled img {
+	filter: unset;
 }
 
 .topbarr #pages_nav span {
