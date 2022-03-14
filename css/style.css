@@ -19,6 +19,7 @@
 
 html, body {
 	background-color: var(--bg-color);
+	min-height: 100vh;
 }
 
 .topbarr {
@@ -171,6 +172,7 @@ html, body {
 	padding-bottom: 1px;
 	border-radius: 4px 4px 4px 4px;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .main-form .form-card {
@@ -239,4 +241,17 @@ html, body {
 
 .main-form .form-card a.form-btn {
 	bottom: 28px;
+}
+
+footer {
+	font: normal 400 12px/16px "Open Sans", sans-serif;
+	color: var(--form-labels);
+	display: flex;
+	width: 100vw;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0;
+	justify-content: center;
+	align-items: center;
 }
